@@ -1,0 +1,34 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %} ">
+    <link rel="stylesheet" href="{% static 'css/mdb.css' %} ">
+
+</head>
+<body>
+    <h1 class="btn btn-primary">MDB4</h1>
+     <div class="carousel slide" data-ride="carousel">
+      <div class="'carousel-inner">
+        <div class="carousel-item">
+          <img src="{% static 'images/pic2.jpg' %}" alt="">
+        </div>
+        <div class="carousel-item">
+          <img src="{% static 'images/pic3.jpg' %}" alt="">
+        </div>
+        <div class="carousel-item active">
+          <img src="{% static 'images/pic4.jpg' %}" alt="">
+        </div>
+      </div>
+
+     </div>
+
+    <script src="{% static 'js/jquery.js' %}"> </script>
+    <script src="{% static 'js/proper.js' %}"> </script>
+    <script src="{% static 'js/mdb.js' %}"> </script>
+    <script src="{% static 'js/bootstrap.js' %}"> </script>
+</body>
+</html>
